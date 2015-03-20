@@ -1,30 +1,56 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="@color/flowGreen"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".FunFactsActivity">
+    tools:context=".FunFactsActivity"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
 
     <TextView
         android:id="@+id/helloWorldTxtViewxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:textSize="24sp"
+        android:text="@string/didYouKnow"
+        android:textColor="#80FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/headerImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/helloWorldTxtViewxtView"
-        android:background="@drawable/abc_ic_menu_paste_mtrl_am_alpha"/>
 
-    <EditText
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abc_ic_menu_paste_mtrl_am_alpha" />-->
+
+    <TextView
+        android:id="@+id/funFactTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You will click on the button."
+        android:textSize="24sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/headerImg"/>
+        android:text="@string/showNextFunFact"
+        android:id="@+id/nextFunFactBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:textColor="@color/flowGreen" />
+
 
 </RelativeLayout>

@@ -1,39 +1,43 @@
 package de.flowment.funfacts;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 
 public class FunFactsActivity extends ActionBarActivity {
+
+    private FactBook mFactBook = new FactBook();
+    private ColorWheel mColor = new ColorWheel();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fun_facts);
-    }
 
+        // Declare our View variables and asign the Views from the layout file
+        final TextView factLbl = (TextView) findViewById(R.id.funFactTxt);
+        final Button showFactBtn = (Button) findViewById(R.id.nextFunFactBtn);
+        final Resources res = getResources();
+        final int[] colors = res.getIntArray(R.array.androidcolors);
+        final RelativeLayout rl = (RelativeLayout) findViewById(R.id.relativeLayoutId);
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fun_facts, menu);
-        return true;
-    }
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Change Background Color
+                rl.setBackgroundColor(mColor.getColor(res));
+                showFactBtn.setTextColor(mColor.getColor(res));
+                // The button was clicked, so update the fact label
+                // with a new random fact and color
+                factLbl.setText(mFactBook.getFact(res));
+            }
+        };
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
+        showFactBtn.setOnClickListener(listener);
     }
 }

@@ -3,4 +3,61 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="didYouKnow">Did you know?</string>
+    <string name="showNextFunFact">Show Another Fun Fact!</string>
+
+    <!--Enter weird fun facts here-->
+    <string-array
+        name="funFactsList">
+        <item>About 3000 years ago, most Egyptians died by the time they were 30.</item>
+        <item>More people use blue toothbrushes than red ones.</item>
+        <item>Your ribs move about 5 million times a year, every time you breathe.</item>
+        <item>In the White House, there are 13,092 knives, forks and spoons.</item>
+        <item>Slugs have 4 noses.</item>
+        <item>Recycling one glass jar saves enough energy to watch TV for 3 hours.</item>
+        <item>Lightning strikes about 6,000 times per minute on this planet.</item>
+        <item>Owls are the only birds who can see the color blue.</item>
+        <item>Thomas Edison, light bulb inventor, was afraid of the dark.</item>
+        <item>During your lifetime, you\'ll eat about 60,000 pounds of food. That\'s the weight of about 6 elephants.</item>
+        <item>Some ribbon worms will eat themselves if they can\'t find any food.</item>
+        <item>In space, astronauts cannot cry, because there is no gravity, so the tears can\'t flow.</item>
+        <item>Ostriches can run faster than horses.</item>
+        <item>Ants stretch when they wake up in the morning.</item>
+        <item>On average, it takes 66 days to form a new habit.</item>
+        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
+        <item>Olympic gold medals are actually made mostly of silver.</item>
+        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
+        <item>It takes about 8 minutes for light from the Sun to reach Earth.</item>
+        <item>Some bamboo plants can grow almost a meter in just one day.</item>
+        <item>The state of Florida is bigger than England.</item>
+        <item>Some penguins can leap 2-3 meters out of the water.</item>
+        <item>The average American drinks about 600 sodas a year.</item>
+        <item>It\'s against the law to slam your car door in Switzerland.</item>
+        <item>There wasn\'t a single pony in the Pony Express, just horses.</item>
+        <item>Honeybees have hair on their eyes.</item>
+        <item>A jellyfish is 95 percent water.</item>
+        <item>In Bangladesh, kids as young as 15 can be jailed for cheating on their finals.</item>
+        <item>A company in Taiwan makes dinnerware out of wheat, so you can eat your plate.</item>
+        <item>The elephant is the only mammal that can\'t jump.</item>
+        <item>The most common name in the world is Mohammed.</item>
+        <item>Q is the only letter in the alphabet that does not appear in the name of any of the United States.</item>
+        <item>America once issued a 5-cent bill.</item>
+        <item>You\'ll eat about 35,000 cookies in your lifetime.</item>
+        <item>Fortune cookies were actually invented in America, in 1918, by Charles Jung.</item>
+        <item>A giraffe can clean its ears with its 21-inch tongue.</item>
+        <item>Chewing gum while peeling onions will keep you from crying.</item>
+        <item>Bats always turn left when exiting a cave.</item>
+        <item>The praying mantis is the only insect that can turn its head.</item>
+        <item>In Tokyo, they sell toupees for dogs.</item>
+        <item>Baby robins eat 14 feet of earthworms every day.</item>
+        <item>The Pentagon has twice as many restrooms as necessary. When it was built, segregation was still in place in Virginia, so separate restrooms for blacks and whites were required by law.</item>
+        <item>In England, in the 1880\'s, "Pants" was considered a dirty word.</item>
+        <item>Most dust particles in your house are made from dead skin.</item>
+        <item>It is believed that Shakespeare was 46 around the time that the King James Version of the Bible was written. In Psalms 46, the 46th word from the first word is "shake" and the 46th word from the last word is "spear".</item>
+        <item>The strength of early lasers was measured in Gillettes, the number of blue razor blades a given beam could puncture.</item>
+        <item>1 pound of lemons contain more sugar than 1 pound of strawberries.</item>
+        <item>All of the clocks in the movie "Pulp Fiction" read 4:20.</item>
+        <item>A snail can have about 25,000 teeth.</item>
+        <item>A starfish can turn its stomach inside out.</item>
+    </string-array>
 </resources>
