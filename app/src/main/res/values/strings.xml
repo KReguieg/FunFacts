@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">Fun Facts</string>
+    <string name="app_name">FunFact.ory</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="didYouKnow">Did you know?</string>
     <string name="showNextFunFact">Show Another Fun Fact!</string>
@@ -59,5 +58,44 @@
         <item>All of the clocks in the movie "Pulp Fiction" read 4:20.</item>
         <item>A snail can have about 25,000 teeth.</item>
         <item>A starfish can turn its stomach inside out.</item>
+        <item>During a solar eclipse the moon\'s shadow races with approximately 3.300 km/h over the Earth\'s surface.</item>
+        <item>It takes an average of about 375 years to see a total solar eclipse again at a certain place.</item>
+        <item>In April 2007 the German Hans-Juergen Kuhl succeeded the production of 25 million US dollars in "excellent" quality, one of the world\'s most important finds of fake money in criminal history.</item>
+        <item>A crocodile can\'t stick it\'s tongue out.</item>
+        <item>A shrimp\'s heart is in it\'s head.</item>
+        <item>In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.</item>
+        <item>It is physically impossible for pigs to look up into the sky.</item>
+        <item>Rats and horses can\'t vomit.</item>
+        <item>If you sneeze too hard, you can fracture a rib.</item>
+        <item>Like fingerprints, everyone\'s tongue print is different.</item>
+        <item>Wearing headphones for just an hour will increase the bacteria in your ear by 700 times.</item>
+        <item>Rats multiply so quickly that in 18 months, two rats could have over a million descendants.</item>
+        <item>The cigarette lighter was invented before the match.</item>
+        <item>A duck\'s quack doesn\'t echo, and no one knows why.</item>
+        <item>Most lipstick contains fish scales.</item>
+        <item>Every year about 98% of atoms in your body are replaced.</item>
+        <item>Every human spent about half an hour as a single cell.</item>
+        <item>Sound travels 15 times faster through steel than through the air.</item>
+        <item>On average, half of all false teeth have some form of radioactivity.</item>
+        <item>Only one satellite has been ever been destroyed by a meteor: the European Space Agency\'s Olympus in 1993.</item>
+        <item>A chip of silicon a quarter-inch square has the capacity of the original 1949 ENIAC computer, which occupied a city block.</item>
+        <item>Guinea pigs and rabbits can\'t sweat.</item>
+        <item>Deer can\'t eat hay.</item>
+        <item>The duckbill platypus can store as many as six hundred worms in the pouches of its cheeks.</item>
+        <item>Human birth control pills work on gorillas.</item>
+        <item>Gorillas sleep as much as fourteen hours per day.</item>
+        <item>On average, 12 newborns will be given to the wrong parents daily.</item>
+        <item>Donald Duck comics were banned from Finland because he doesn\'t wear any pants.</item>
+        <item>Because metal was scarce, the Oscars given out during World War II were made of wood.</item>
+        <item>Leonardo Da Vinci invented scissors.</item>
+        <item>The glue on Israeli postage stamps is certified kosher.</item>
+        <item>"Almost" is the longest word in the English language with all the letters in alphabetical order.</item>
+        <item>A cockroach can live several weeks with its head cut off.</item>
+        <item>There is a city called Rome on every continent.</item>
+        <item>Camels have three eyelids to protect themselves from blowing sand.</item>
+        <item>Humans and dolphins are the only species that have sex for pleasure.</item>
+        <item>Polar bears are left-handed.</item>
+        <item>Starfish have no brains.</item>
+        <item>Butterflies taste with their feet.</item>
     </string-array>
 </resources>
