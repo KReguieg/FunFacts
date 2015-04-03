@@ -52,11 +52,12 @@ public class FunFactsActivity extends ActionBarActivity {
     };
 
     @Override
-    protected void onDestroy()
-    {
+    protected void onDestroy() {
         super.onDestroy();
 
-        if (mHandler != null) { mHandler.removeCallbacks(mRunnable); }
+        if (mHandler != null) {
+            mHandler.removeCallbacks(mRunnable);
+        }
     }
 
     @Override
