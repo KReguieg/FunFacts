@@ -14,12 +14,12 @@
     tools:context=".FunFactsActivity">
 
     <com.getbase.floatingactionbutton.FloatingActionButton
-        android:id="@+id/pink_icon"
+        android:id="@+id/newFactFloatingBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        fab:fab_icon="@drawable/ic_create_white_24dp"
+        fab:fab_icon="@drawable/ic_create_black_24dp"
         fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
-        fab:fab_colorPressed="@color/pink_pressed"
+        fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
         android:layout_above="@+id/nextFunFactBtn"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

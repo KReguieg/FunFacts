@@ -1,5 +1,6 @@
 package de.flowment.funfacts;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
@@ -28,6 +29,14 @@ public class FunFactsActivity extends ActionBarActivity {
         final Button showFactBtn = (Button) findViewById(R.id.nextFunFactBtn);
         final Resources res = getResources();
         final RelativeLayout rl = (RelativeLayout) findViewById(R.id.relativeLayoutId);
+
+        findViewById(R.id.newFactFloatingBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(FunFactsActivity.this, "Clicked pink Floating Action Button", Toast.LENGTH_SHORT).show();
+                startNewFunFactActivity();
+            }
+        });
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
@@ -71,5 +80,10 @@ public class FunFactsActivity extends ActionBarActivity {
         Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
 
         mHandler.postDelayed(mRunnable, 2000);
+    }
+
+    private void startNewFunFactActivity() {
+        Intent intent = new Intent(this, AddNewFunFactActivity.class);
+        startActivity(intent);
     }
 }

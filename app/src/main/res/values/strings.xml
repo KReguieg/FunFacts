@@ -99,4 +99,7 @@
         <item>Butterflies taste with their feet.</item>
         <item>Humanity landed on the moon before it put wheels on it\'s luggage.</item>
     </string-array>
+    <string name="title_activity_add_new_fun_fact">addNewFunFactActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
