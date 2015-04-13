@@ -2,8 +2,8 @@
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayoutId"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@color/flowGreen"
     android:focusable="false"
     android:focusableInTouchMode="false"
@@ -11,18 +11,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".FunFactsActivity">
-
-    <com.getbase.floatingactionbutton.FloatingActionButton
-        android:id="@+id/sendNewFactFloatingBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        fab:fab_icon="@drawable/ic_create_black_24dp"
-        fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
-        fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
-        android:layout_above="@+id/nextFunFactBtn"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    tools:context=".FunFactsActivity"
+    android:elevation="0dp">
 
     <TextView
         android:id="@+id/didYouKnowTextView"
@@ -37,35 +27,51 @@
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="1dip"
+        android:layout_height="2dp"
         android:background="#FFFFFFFF"
         android:paddingTop="10dp"
         android:layout_below="@+id/didYouKnowTextView"
-        />
+        android:id="@+id/view"
+        android:elevation="-1dp"
+        android:layout_marginTop="3dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/funFactTxt"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
         android:paddingTop="15dp"
         android:text="You will click on the button."
         android:textColor="#FFFFFFFF"
         android:textSize="24sp"
+        android:maxLines="8"
+        android:background="@null"
         android:lineSpacingMultiplier="1.2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_below="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/nextFunFactBtn"
+        android:editable="false"
+        android:cursorVisible="false"/>
 
     <Button
         android:id="@+id/nextFunFactBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:background="@android:color/white"
         android:text="@string/showNextFunFact"
-        android:textColor="@color/flowGreen" />
+        android:textColor="@color/flowGreen"
+        android:layout_above="@+id/sendNewFactFloatingBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sendNewFactFloatingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@drawable/ic_create"
+        fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
+        fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
