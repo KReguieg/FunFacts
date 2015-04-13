@@ -14,7 +14,7 @@
     tools:context=".FunFactsActivity">
 
     <com.getbase.floatingactionbutton.FloatingActionButton
-        android:id="@+id/newFactFloatingBtn"
+        android:id="@+id/sendNewFactFloatingBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         fab:fab_icon="@drawable/ic_create_black_24dp"
@@ -25,7 +25,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:id="@+id/helloWorldTxtViewxtView"
+        android:id="@+id/didYouKnowTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -35,16 +35,28 @@
         android:textColor="#80FFFFFF"
         android:textSize="24sp" />
 
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#FFFFFFFF"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/didYouKnowTextView"
+        />
+
     <TextView
         android:id="@+id/funFactTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
         android:text="You will click on the button."
         android:textColor="#FFFFFFFF"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <Button
         android:id="@+id/nextFunFactBtn"

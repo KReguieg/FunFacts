@@ -30,10 +30,9 @@ public class FunFactsActivity extends ActionBarActivity {
         final Resources res = getResources();
         final RelativeLayout rl = (RelativeLayout) findViewById(R.id.relativeLayoutId);
 
-        findViewById(R.id.newFactFloatingBtn).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.sendNewFactFloatingBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(FunFactsActivity.this, "Clicked pink Floating Action Button", Toast.LENGTH_SHORT).show();
                 startNewFunFactActivity();
             }
         });
