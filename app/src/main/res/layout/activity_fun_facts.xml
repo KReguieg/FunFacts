@@ -1,18 +1,19 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:id="@+id/relativeLayoutId"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relativeLayoutId"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/flowGreen"
+    android:elevation="0dp"
     android:focusable="false"
     android:focusableInTouchMode="false"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".FunFactsActivity"
-    android:elevation="0dp">
+    tools:context=".FunFactsActivity">
 
     <TextView
         android:id="@+id/didYouKnowTextView"
@@ -23,55 +24,71 @@
         android:layout_alignParentTop="true"
         android:text="@string/didYouKnow"
         android:textColor="#80FFFFFF"
-        android:textSize="24sp" />
+        android:textSize="24sp"/>
 
     <View
+        android:id="@+id/view"
         android:layout_width="fill_parent"
         android:layout_height="2dp"
-        android:background="#FFFFFFFF"
-        android:paddingTop="10dp"
         android:layout_below="@+id/didYouKnowTextView"
-        android:id="@+id/view"
+        android:layout_marginTop="3dp"
+        android:background="#FFFFFFFF"
         android:elevation="-1dp"
-        android:layout_marginTop="3dp"/>
+        android:paddingTop="10dp"/>
 
     <EditText
         android:id="@+id/funFactTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:lineSpacingMultiplier="1.2"
+        android:lines="8"
+        android:maxLines="8"
         android:paddingTop="15dp"
+        android:scrollbars="vertical"
         android:text="You will click on the button."
         android:textColor="#FFFFFFFF"
         android:textSize="24sp"
-        android:maxLines="8"
-        android:background="@null"
-        android:lineSpacingMultiplier="1.2"
-        android:layout_below="@+id/view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@+id/nextFunFactBtn"
-        android:editable="false"
-        android:cursorVisible="false"/>
+        />
 
-    <Button
-        android:id="@+id/nextFunFactBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:text="@string/showNextFunFact"
-        android:textColor="@color/flowGreen"
-        android:layout_above="@+id/sendNewFactFloatingBtn"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
-
-    <com.getbase.floatingactionbutton.FloatingActionButton
-        android:id="@+id/sendNewFactFloatingBtn"
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floatingActionMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        fab:fab_icon="@drawable/ic_create"
-        fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
-        fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
+        fab:fab_addButtonColorNormal="@color/abc_primary_text_disable_only_material_dark"
+        fab:fab_addButtonColorPressed="@color/switch_thumb_normal_material_dark"
+        fab:fab_addButtonPlusIconColor="@color/flowGreen"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="right"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/nextFunFactFloatingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/floatingActionMenu"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
+            fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
+            fab:fab_icon="@drawable/ic_arrow_forward"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sendNewFactFloatingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/floatingActionMenu"
+            android:layout_centerHorizontal="true"
+            fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
+            fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
+            fab:fab_icon="@drawable/ic_create"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
 </RelativeLayout>

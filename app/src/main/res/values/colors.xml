@@ -10,23 +10,26 @@
     <color name="awesomeLightGreen" type="color">#04DBAC</color>
     <color name="awesomeLightBlue" type="color">#66C3FF</color>
     <color name="materialRed" type="color">#B71C1C</color>
-    <color name="materialDeepOrange" type="color">#FF5722</color>
+    <color name="material_deep_orange_900" type="color">#E65100</color>
     <color name="materialIndigo" type="color">#3F51B5</color>
-    <color name="pink">#e91e63</color>
-    <color name="pink_pressed">#ec407a</color>
+    <color name="material_cyan">#00BCD4</color>
+    <color name="material_deep_teal_900">#004D40</color>
+    <color name="material_deep_cyan_900">#006064</color>
+    <color name="material_deep_cyan_800">#00838F</color>
+    <color name="material_deep_yellow_900">#F57F17</color>
 
     <integer-array name="androidcolors">
         <item>@color/darkGreen</item>
-        <item>@color/lightGreen</item>
         <item>@color/flowGreen</item>
-        <item>@color/creme</item>
         <item>@color/awesomePurple</item>
         <item>@color/awesomeRed</item>
         <item>@color/awesomeBlue</item>
-        <item>@color/awesomeLightGreen</item>
-        <item>@color/awesomeLightBlue</item>
         <item>@color/materialRed</item>
-        <item>@color/materialDeepOrange</item>
+        <item>@color/material_deep_orange_900</item>
         <item>@color/materialIndigo</item>
+        <item>@color/material_deep_teal_900</item>
+        <item>@color/material_deep_cyan_900</item>
+        <item>@color/material_deep_cyan_800</item>
+        <item>@color/material_deep_yellow_900</item>
     </integer-array>
 </resources>

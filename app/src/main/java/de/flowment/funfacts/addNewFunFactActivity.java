@@ -62,9 +62,9 @@ public class AddNewFunFactActivity extends ActionBarActivity {
                 i.putExtra(Intent.EXTRA_EMAIL, new String[]{"khaled.reguieg@gmail.com"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "New FunFact For You!");
                 i.putExtra(Intent.EXTRA_TEXT   , "FunFact: \n\n" + mNewFunFactEditText.getText() + "\n\nName:\n\n" + mNameEditText.getText() + "\n\nSource: \n\n" + mSourceEditText.getText()+ "\n\nPublish name: " + mCheckBox.isChecked());
-                Toast.makeText(AddNewFunFactActivity.this,"Sending new FunFact...", Toast.LENGTH_SHORT).show();
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
+                    finish();
                 } catch (android.content.ActivityNotFoundException ex) {
                     Toast.makeText(AddNewFunFactActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
                 }
