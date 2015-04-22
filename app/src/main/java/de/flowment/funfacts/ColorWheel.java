@@ -9,9 +9,15 @@ import java.util.Random;
  */
 public class ColorWheel {
     public int[] mColors;
+    public int mRndNumber;
 
     public int getColor(Resources res){
         mColors = res.getIntArray(R.array.androidcolors);
-        return mColors[new Random().nextInt(mColors.length)];
+        int lastRnd = mRndNumber;
+        do {
+            mRndNumber = new Random().nextInt(mColors.length);
+        }
+        while(lastRnd == mRndNumber);
+        return mColors[mRndNumber];
     }
 }

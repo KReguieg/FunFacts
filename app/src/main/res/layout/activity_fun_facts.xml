@@ -85,9 +85,9 @@
                 android:layout_alignBottom="@+id/floatingActionMenu"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                fab:fab_colorNormal="@color/abc_primary_text_disable_only_material_dark"
-                fab:fab_colorPressed="@color/switch_thumb_normal_material_dark"
-                fab:fab_icon="@drawable/ic_arrow_forward" />
+                fab:fab_colorNormal="@color/flowGreen"
+                fab:fab_colorPressed="@color/material_deep_teal_900"
+                fab:fab_icon="@drawable/ic_arrow_forward_white" />
 
             <com.getbase.floatingactionbutton.FloatingActionButton
                 android:id="@+id/shareFloatingActionButton"

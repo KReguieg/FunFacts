@@ -10,9 +10,15 @@ import java.util.Random;
 public class FactBook {
 
     public String[] mFunFacts;
+    public int mRndNumber;
 
     public String getFact(Resources res){
         mFunFacts = res.getStringArray(R.array.funFactsList);
-        return mFunFacts[new Random().nextInt(mFunFacts.length)];
+        int lastRnd = mRndNumber;
+        do {
+            mRndNumber = new Random().nextInt(mFunFacts.length);
+        }
+        while(lastRnd == mRndNumber);
+        return mFunFacts[mRndNumber];
     }
 }
