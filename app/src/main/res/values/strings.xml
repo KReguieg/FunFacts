@@ -1,166 +1,317 @@
 <resources>
-    <string name="app_name">FunFact.ory</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="app_name">FunFact.ory</string>
     <string name="didYouKnow">Did you know?</string>
     <string name="showNextFunFact">Show Another Fun Fact!</string>
 
     <!--Enter weird fun facts here-->
     <string-array
-        name="funFactsList">
-        <item>About 3000 years ago, most Egyptians died by the time they were 30.</item>
-        <item>More people use blue toothbrushes than red ones.</item>
-        <item>Your ribs move about 5 million times a year, every time you breathe.</item>
-        <item>In the White House, there are 13,092 knives, forks and spoons.</item>
-        <item>Slugs have 4 noses.</item>
-        <item>Recycling one glass jar saves enough energy to watch TV for 3 hours.</item>
-        <item>Lightning strikes about 6,000 times per minute on this planet.</item>
-        <item>Owls are the only birds who can see the color blue.</item>
-        <item>Thomas Edison, light bulb inventor, was afraid of the dark.</item>
-        <item>During your lifetime, you\'ll eat about 60,000 pounds of food. That\'s the weight of about 6 elephants.</item>
-        <item>Some ribbon worms will eat themselves if they can\'t find any food.</item>
-        <item>In space, astronauts cannot cry, because there is no gravity, so the tears can\'t flow.</item>
-        <item>Ostriches can run faster than horses.</item>
-        <item>Ants stretch when they wake up in the morning.</item>
-        <item>On average, it takes 66 days to form a new habit.</item>
-        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
-        <item>Olympic gold medals are actually made mostly of silver.</item>
-        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
-        <item>It takes about 8 minutes for light from the Sun to reach Earth.</item>
-        <item>Some bamboo plants can grow almost a meter in just one day.</item>
-        <item>The state of Florida is bigger than England.</item>
-        <item>Some penguins can leap 2-3 meters out of the water.</item>
-        <item>The average American drinks about 600 sodas a year.</item>
-        <item>It\'s against the law to slam your car door in Switzerland.</item>
-        <item>There wasn\'t a single pony in the Pony Express, just horses.</item>
-        <item>Honeybees have hair on their eyes.</item>
-        <item>A jellyfish is 95 percent water.</item>
-        <item>In Bangladesh, kids as young as 15 can be jailed for cheating on their finals.</item>
-        <item>A company in Taiwan makes dinnerware out of wheat, so you can eat your plate.</item>
-        <item>The elephant is the only mammal that can\'t jump.</item>
-        <item>The most common name in the world is Mohammed.</item>
-        <item>Q is the only letter in the alphabet that does not appear in the name of any of the United States.</item>
-        <item>America once issued a 5-cent bill.</item>
-        <item>You\'ll eat about 35,000 cookies in your lifetime.</item>
-        <item>Fortune cookies were actually invented in America, in 1918, by Charles Jung.</item>
-        <item>A giraffe can clean its ears with its 21-inch tongue.</item>
-        <item>Chewing gum while peeling onions will keep you from crying.</item>
-        <item>Bats always turn left when exiting a cave.</item>
-        <item>The praying mantis is the only insect that can turn its head.</item>
-        <item>In Tokyo, they sell toupees for dogs.</item>
-        <item>Baby robins eat 14 feet of earthworms every day.</item>
-        <item>The Pentagon has twice as many restrooms as necessary. When it was built, segregation was still in place in Virginia, so separate restrooms for blacks and whites were required by law.</item>
-        <item>In England, in the 1880\'s, \"Pants\" was considered a dirty word.</item>
-        <item>Most dust particles in your house are made from dead skin.</item>
-        <item>It is believed that Shakespeare was 46 around the time that the King James Version of the Bible was written. In Psalms 46, the 46th word from the first word is "shake" and the 46th word from the last word is "spear".</item>
-        <item>The strength of early lasers was measured in Gillettes, the number of blue razor blades a given beam could puncture.</item>
-        <item>1 pound of lemons contain more sugar than 1 pound of strawberries.</item>
-        <item>All of the clocks in the movie \"Pulp Fiction\" read 4:20.</item>
-        <item>A snail can have about 25,000 teeth.</item>
-        <item>A starfish can turn its stomach inside out.</item>
-        <item>During a solar eclipse the moon\'s shadow races with approximately 3.300 km/h over the Earth\'s surface.</item>
-        <item>It takes an average of about 375 years to see a total solar eclipse again at a certain place.</item>
-        <item>In April 2007 the German Hans-Juergen Kuhl succeeded the production of 25 million US dollars in \"excellent\" quality, one of the world\'s most important finds of fake money in criminal history.</item>
-        <item>A crocodile can\'t stick it\'s tongue out.</item>
-        <item>A shrimp\'s heart is in it\'s head.</item>
-        <item>In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.</item>
-        <item>It is physically impossible for pigs to look up into the sky.</item>
-        <item>Rats and horses can\'t vomit.</item>
-        <item>If you sneeze too hard, you can fracture a rib.</item>
-        <item>Like fingerprints, everyone\'s tongue print is different.</item>
-        <item>Wearing headphones for just an hour will increase the bacteria in your ear by 700 times.</item>
-        <item>Rats multiply so quickly that in 18 months, two rats could have over a million descendants.</item>
-        <item>The cigarette lighter was invented before the match.</item>
-        <item>A duck\'s quack doesn\'t echo, and no one knows why.</item>
-        <item>Most lipstick contains fish scales.</item>
-        <item>Every year about 98% of atoms in your body are replaced.</item>
-        <item>Every human spent about half an hour as a single cell.</item>
-        <item>Sound travels 15 times faster through steel than through the air.</item>
-        <item>On average, half of all false teeth have some form of radioactivity.</item>
-        <item>Only one satellite has ever been destroyed by a meteor: the European Space Agency\'s Olympus in 1993.</item>
-        <item>A chip of silicon a quarter-inch square has the capacity of the original 1949 ENIAC computer, which occupied a city block.</item>
-        <item>Guinea pigs and rabbits can\'t sweat.</item>
-        <item>Deer can\'t eat hay.</item>
-        <item>The duckbill platypus can store as many as six hundred worms in the pouches of its cheeks.</item>
-        <item>Human birth control pills work on gorillas.</item>
-        <item>Gorillas sleep as much as fourteen hours per day.</item>
-        <item>On average, 12 newborns will be given to the wrong parents daily.</item>
-        <item>Donald Duck comics were banned from Finland because he doesn\'t wear any pants.</item>
-        <item>Because metal was scarce, the Oscars given out during World War II were made of plaster.</item>
-        <item>Leonardo Da Vinci invented scissors.</item>
-        <item>The glue on Israeli postage stamps is certified kosher.</item>
-        <item>\"Almost\" is the longest word in the English language with all the letters in alphabetical order.</item>
-        <item>A cockroach can live several weeks with its head cut off.</item>
-        <item>There is a city called Rome on every continent.</item>
-        <item>Camels have three eyelids to protect themselves from blowing sand.</item>
-        <item>Humans and dolphins are the only species that have sex for pleasure.</item>
-        <item>Polar bears are left-handed.</item>
-        <item>Starfish have no brains.</item>
-        <item>Butterflies taste with their feet.</item>
-        <item>Humanity landed on the moon before it put wheels on it\'s luggage.</item>
-        <item>In Ethiopia 99.5% of the city popularity live in slums.</item>
-        <item>A Kangaroo\'s fart doesn\'t contain any methane.</item>
-        <item>Pigeons can\'t fart.</item>
-        <item>\"Me at the zoo\" has been the first video uploaded on YouTube. Recorded by founder Yakov Lapitsky the video reached over 19 million clicks.</item>
-        <item>A day on Venus counting 243 days on Earth lasts just a bit longer than a year of 225 days.</item>
-        <item>More than 50% of all women can\'t manage to pack less than 50 pieces of clothes for a 2 week vacation.</item>
-        <item>The paint used for the White House in Washington D.C. is being exported from Diedorf in Bavaria, Germany.</item>
-        <item>Around 10.000 people worldwide speak klingon, one of Star Trek\'s languages.</item>
-        <item>McDonalds is testing breakfast all day on 4/20, also known as the international stoner day.</item>
-        <item>The name of the guy on the Pringels can is Julius.</item>
-        <item>In the Aborigine language \"Koala\" means \"no water\". Maybe because of the fact that a Koala never drinks. It gets all the water needed out of the Eucalyptus leaves it eats.</item>
-        <item>Koalas eat 1 to 2 pounds of Eucalyptus leaves a day.</item>
-        <item>The Koala swims very good. It crosses rivers in order to survive heavy floods.</item>
-        <item>A newborn Koala is only the size of a lima bean.</item>
-        <item>the idea of contact lenses was first introduced by Leonardo da Vinci in 1508.</item>
-        <item>Since 2011, there have been at least 4 incidents of people cooking meth inside of a Walmart.</item>
-        <item>The abbreviation \"N.O.R.D\" stands for \"Nicht Onanierbarer Rest Druck\". (Only Germans will understand) </item>
-        <item>Studies show that apes experience dips in happiness in their middle age, much like people do.</item>
-        <item>After racking up $40 in late fees for a VHS, Reed Hastings was inspired to start Netflix.</item>
-        <item>From 1814 to 1830, the flag of the Kingdom of France was plain white. But if the King was present there were golden fleur-de-lis on it.</item>
-        <item>The Statue of Liberty was originally intended for Egypt.</item>
-        <item>Napoleon was actually taller than the average Frenchman.</item>
-        <item>According to the Vatican, Catholics can reduce their time in purgatory by following the Pope on Twitter.</item>
-        <item>Hedwig, Harry Potter\'s owl, is named after the patron saint of orphaned and abandoned children.</item>
-        <item>Google was originally called \"Backrub\".</item>
-        <item>In Spanish the word \"esposas\" means both \"wives\" and \"handcuffs\".</item>
-        <item>During the 18th century, you could pay your admission ticket to the zoo of London by bringing a cat or a dog to feed the lions.</item>
-        <item>In 21012, a 10 year old accidentally created a new molecule in science class called \"Tetranitratoxycarbon\".</item>
-        <item>The first webcam was created in Cambridge University to check on the coffee levels of a coffee pot.</item>
-        <item>You can change your language on Facebook to \"Pirate\".</item>
-        <item>McDonald\'s Caesar salad is more fattening than their hamburger.</item>
-        <item>The United States of America never went to war with a country that had a McDonald\'s.</item>
-        <item>Israel broke 65 U.N. resolutions with no consequences.</item>
-        <item>Scientists have created an electronic sleeve that fits over your heart to keep it beating for ever.</item>
-        <item>The United States of America had 72 interventions since World War II. You can look them up on wikipedia in a timetable.</item>
-        <item>Leonardo Da Vinci was the first to explain why the sky is blue.</item>
-        <item>If the human eye was a digital camera, it would have 576 megapixels.</item>
-        <item>It\'s not illegal to go topless in New York City.</item>
-        <item>More people commit suicide in New York City than are murdered.</item>
-        <item>Significantly more serial killers are born in November than any other month.</item>
-        <item>If you are named \"Mary\" it is illegal for you to work aa a prostitute in Siena, Italy. </item>
-        <item>The longest Monopoly game in history lasted for 70 straight days.</item>
-        <item>To burn off one plain M&amp;M candy, you need to walk the full length of a football field.</item>
-        <item>Acorns were used as a coffee substitute during the American Civil War.</item>
-        <item>The Korean version of \"LOL\" is \"KKK\" which means \"Hahaha\".</item>
-        <item>It is illegal to purchase or consume Jack Daniel\'s Whiskey in the town (Lynchburg, Tennessee) in which it is produced. That\'s why they have a famous lemonade the \"Lynchburg Lemonade\".</item>
-        <item>Britney Spears\' music was used by the British Royal Navy to scare off Somali pirates.</item>
-        <item>In 2008, Mexican Scientists found a way to make diamonds out of tequila.</item>
-        <item>There is a video game called \"Lose/Lose\" with real life consequences. It deletes a random file on your computer every time you kill an enemy.</item>
-        <item>According to gaming law, casinos have to stock enough cash to cover all the chips on the \"floor\".</item>
-        <item>Bangkok is known by Thai people as \"Krung Thep\", which means \"City of Angels\".</item>
-        <item>Vampire bats adopt orphans, and are one of the few mammals known to risk their own lives to share food with less fortunate roost-mates.</item>
-        <item>There are more atoms in a teaspoon of water than there are teaspoons of water in the entire Atlantic Ocean.</item>
-        <item>M&amp;M\'s stand for Mars &amp; Murrie\'s, the last names of the candy\'s founders.</item>
-        <item>Eminem tried to call himself M&amp;M because his name is \"Marshall Mathers\" but the candy company forbid it.</item>
-        <item>There are more people speaking French in Africa than in France.</item>
-        <item>Once an American politician tried to change the number PI to 3, because it\'s easier.</item>
-        <item>\"Dimension 6\" was the original name intended for Nike.</item>
-        <item>In 2011, a woman bought a non-visible piece of art for $10,000, titled \"Fresh Air\".</item>
-        <item>A baby girl born in Hong Kong was found to be \"pregnant\" with twins. It is condition known as \"foetus in foeto\" which occurs in 1 out of 500,000 births.</item>
-        <item>\"Murder for a jar of red rum\" spelled backwards is \"Murder for a jar of red rum\".</item>
-    </string-array>
-    <string name="title_activity_add_new_fun_fact">addNewFunFactActivity</string>
 
-    <string name="hello_world">Hello world!</string>
+        name="funFactsList">
+
+        <item>About 3000 years ago, most Egyptians died by the time they were 30.</item>
+
+        <item>More people use blue toothbrushes than red ones.</item>
+
+        <item>Your ribs move about 5 million times a year, every time you breathe.</item>
+
+        <item>In the White House, there are 13,092 knives, forks and spoons.</item>
+
+        <item>Slugs have 4 noses.</item>
+
+        <item>Recycling one glass jar saves up enough energy to watch TV for 3 hours.</item>
+
+        <item>Lightning strikes about 6,000 times per minute on this planet.</item>
+
+        <item>Owls are the only birds who can see the color blue.</item>
+
+        <item>Thomas Edison, the inventor of light bulbs, was afraid of the dark.</item>
+
+        <item>During your lifetime, you\'ll eat about 60,000 pounds of food. That\'s the weight of about 6 elephants.</item>
+
+        <item>Some ribbon worms will eat themselves if they can\'t find any food.</item>
+
+        <item>In space, astronauts cannot cry, because there is no gravity, so the tears can\'t flow.</item>
+
+        <item>Ostriches can run faster than horses.</item>
+
+        <item>Ants stretch themseleves when they wake up in the morning.</item>
+
+        <item>On average, it takes 66 days to form a new habit.</item>
+
+        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
+
+        <item>Olympic gold medals are actually mostly made out of silver.</item>
+
+        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
+
+        <item>It takes about 8 minutes for light from the sun to reach the earth.</item>
+
+        <item>Some bamboo plants can grow almost a meter in just one day.</item>
+
+        <item>The state of Florida is bigger than England.</item>
+
+        <item>Some penguins can leap 2-3 meters out of the water.</item>
+
+        <item>The average American drinks about 600 sodas a year.</item>
+
+        <item>It\'s against the law to slam your car door in Switzerland.</item>
+
+        <item>There wasn\'t a single pony in the Pony Express, only horses.</item>
+
+        <item>Honeybees have hair on their eyes.</item>
+
+        <item>A jellyfish consist 95 percent of water.</item>
+
+        <item>In Bangladesh, kids as young as 15 can be arrested for cheating on their finals.</item>
+
+        <item>A company in Taiwan makes dinnerware out of wheat, so you may even eat your plate.</item>
+
+        <item>The elephant is the only mammal that can\'t jump.</item>
+
+        <item>The most common name in the world is Mohammed.</item>
+
+        <item>Q is the only letter in the alphabet that does not appear in the name of any of the United States.</item>
+
+        <item>America once issued a 5-cent bill.</item>
+
+        <item>You\'ll eat about 35,000 cookies in your lifetime.</item>
+
+        <item>Fortune cookies were actually invented in America, in 1918, by Charles Jung.</item>
+
+        <item>A giraffe can clean its ears with its 21-inch long tongue.</item>
+
+        <item>Chewing gum while peeling onions will keep you from crying.</item>
+
+        <item>Bats always turn left when exiting a cave.</item>
+
+        <item>The praying mantis is the only insect that can turn its head.</item>
+
+        <item>In Tokyo, they sell toupees for dogs.</item>
+
+        <item>Baby robins eat 14 feet of earthworms every day.</item>
+
+        <item>The Pentagon has twice as many restrooms as necessary. When it was built, segregation was still in place in Virginia, so separate restrooms for blacks and whites were required by law.</item>
+
+        <item>In England, in the 1880\'s, \"Pants\" was considered a dirty word.</item>
+
+        <item>Most dust particles in your house are made from dead skin.</item>
+
+        <item>It is believed that Shakespeare was 46 around the time that the King James Version of the Bible was written. In Psalms 46, the 46th word from the first word is "shake" and the 46th word from the last word is "spear".</item>
+
+        <item>The strength of early lasers was measured in Gillettes, the number of blue razor blades a given beam could puncture.</item>
+
+        <item>1 pound of lemons contains more sugar than 1 pound of strawberries.</item>
+
+        <item>All clocks in the movie \"Pulp Fiction\" read 4:20.</item>
+
+        <item>A snail can have about 25,000 teeth.</item>
+
+        <item>A starfish can turn its stomach inside out.</item>
+
+        <item>During a solar eclipse the moon\'s shadow races with approximately 3.300 km/h over the earth\'s surface.</item>
+
+        <item>It takes an average of 375 years to see a total solar eclipse again at a certain place.</item>
+
+        <item>In April 2007 the German Hans-Juergen Kuhl succeeded the production of 25 million US dollars in \"excellent\" quality, one of the world\'s most important finds of fake money in criminal history.</item>
+
+        <item>A crocodile can\'t stick it\'s tongue out.</item>
+
+        <item>A shrimp\'s heart is in it\'s head.</item>
+
+        <item>In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.</item>
+
+        <item>It is physically impossible for pigs to look up into the sky.</item>
+
+        <item>Rats and horses can\'t vomit.</item>
+
+        <item>If you sneeze too hard, you can fracture a rib.</item>
+
+        <item>Like fingerprints, everyone\'s tongue print is different.</item>
+
+        <item>Wearing headphones for just an hour will increase the bacteria in your ear by 700 times.</item>
+
+        <item>Rats multiply so quickly that in 18 months, two rats could have over a million descendants.</item>
+
+        <item>The cigarette lighter was invented before the match.</item>
+
+        <item>A duck\'s quack doesn\'t echo, and no one knows why.</item>
+
+        <item>Most lipstick contains fish scales.</item>
+
+        <item>Every year about 98% of atoms in your body are replaced.</item>
+
+        <item>Every human spent about half an hour as a single cell.</item>
+
+        <item>Sound travels 15 times faster through steel than through air.</item>
+
+        <item>On average, half of all false teeth have some form of radioactivity.</item>
+
+        <item>Only one satellite has ever been destroyed by a meteor: the European Space Agency\'s Olympus in 1993.</item>
+
+        <item>A chip of silicon a quarter-inch square has the capacity of the original 1949 ENIAC computer, which occupied a city block.</item>
+
+        <item>Guinea pigs and rabbits can\'t sweat.</item>
+
+        <item>Deer can\'t eat hay.</item>
+
+        <item>The duckbill platypus can store as many as six hundred worms in the pouches of its cheeks.</item>
+
+        <item>Human birth control pills work on gorillas.</item>
+
+        <item>Gorillas sleep as much as 14 hours per day.</item>
+
+        <item>On average, 12 newborns will be given to the wrong parents daily.</item>
+
+        <item>Donald Duck comics were banned from Finland because he doesn\'t wear any pants.</item>
+
+        <item>As metal was scarce, the Oscars given out during World War II were made out of plaster.</item>
+
+        <item>Leonardo Da Vinci invented scissors.</item>
+
+        <item>The glue on Israeli postage stamps is certified kosher.</item>
+
+        <item>\"Almost\" is the longest word in the English language with all the letters in alphabetical order.</item>
+
+        <item>A cockroach can live several weeks with its head cut off.</item>
+
+        <item>There is a city called Rome on every continent.</item>
+
+        <item>Camels have three eyelids to protect themselves from blowing sand.</item>
+
+        <item>Humans and dolphins are the only species that have sex for pleasure.</item>
+
+        <item>Polar bears are left-handed.</item>
+
+        <item>Starfish have no brains.</item>
+
+        <item>Butterflies taste with their feet.</item>
+
+        <item>Humanity landed on the moon before it put wheels on it\'s luggage.</item>
+
+        <item>In Ethiopia 99.5% of the urban population lives in slums.</item>
+
+        <item>A Kangaroo\'s fart doesn\'t contain any methane.</item>
+
+        <item>Pigeons can\'t fart.</item>
+
+        <item>\"Me at the zoo\" has been the first video uploaded on YouTube. Recorded by founder Yakov Lapitsky the video reached over 19 million clicks.</item>
+
+        <item>A day on Venus counting 243 days on Earth lasts just a bit longer than a year of 225 days.</item>
+
+        <item>More than 50% of all women can\'t manage to pack less than 50 pieces of clothes for a 2 week vacation.</item>
+
+        <item>The paint used for the White House in Washington D.C. is being exported from Diedorf in Bavaria, Germany.</item>
+
+        <item>Around 10.000 people worldwide speak klingon, one of Star Trek\'s languages.</item>
+
+        <item>McDonalds is testing breakfast all day on 4/20, also known as the international stoner day.</item>
+
+        <item>The name of the guy on the Pringels can is Julius.</item>
+
+        <item>In the Aborigine language \"Koala\" means \"no water\". Maybe because of the fact that a Koala never drinks. It gets all the water needed out of the Eucalyptus leaves it eats.</item>
+
+        <item>Koalas eat 1 to 2 pounds of Eucalyptus leaves a day.</item>
+
+        <item>The Koala swims very good. It crosses rivers in order to survive heavy floods.</item>
+
+        <item>A newborn Koala is only the size of a lima bean.</item>
+
+        <item>the idea of contact lenses was first introduced by Leonardo da Vinci in 1508.</item>
+
+        <item>Since 2011, there have been at least 4 incidents of people cooking meth inside of a Walmart.</item>
+
+        <item>The abbreviation \"N.O.R.D\" stands for \"Nicht Onanierbarer Rest Druck\". (Only Germans will understand) </item>
+
+        <item>Studies show that apes experience dips in happiness in their middle age, much like people do.</item>
+
+        <item>After racking up $40 in late fees for a VHS, Reed Hastings was inspired to start Netflix.</item>
+
+        <item>From 1814 to 1830, the flag of the Kingdom of France was plain white. But if the King was present there were golden fleur-de-lis on it.</item>
+
+        <item>The Statue of Liberty was originally intended for Egypt.</item>
+
+        <item>Napoleon was actually taller than the average Frenchman.</item>
+
+        <item>According to the Vatican, Catholics can reduce their time in purgatory by following the Pope on Twitter.</item>
+
+        <item>Hedwig, Harry Potter\'s owl, is named after the patron saint of orphaned and abandoned children.</item>
+
+        <item>Google was originally called \"Backrub\".</item>
+
+        <item>In Spanish the word \"esposas\" means both \"wives\" and \"handcuffs\".</item>
+
+        <item>During the 18th century, you could pay your admission ticket to the zoo of London by bringing a cat or a dog to feed the lions.</item>
+
+        <item>In 2012, a 10 year old accidentally created a new molecule in science class called \"Tetranitratoxycarbon\".</item>
+
+        <item>The first webcam was created in Cambridge University to check on the coffee levels of a coffee pot.</item>
+
+        <item>You can change your language on Facebook to \"Pirate\".</item>
+
+        <item>McDonald\'s Caesar salad is more fattening than their hamburger.</item>
+
+        <item>The United States of America never went to war with a country that had a McDonald\'s.</item>
+
+        <item>Israel broke 65 U.N. resolutions with no consequences.</item>
+
+        <item>Scientists have created an electronic sleeve that fits over your heart to keep it beating for ever.</item>
+
+        <item>The United States of America had 72 interventions since World War II. You can look them up on wikipedia in a timetable.</item>
+
+        <item>Leonardo Da Vinci was the first to explain why the sky is blue.</item>
+
+        <item>If the human eye was a digital camera, it would have 576 megapixels.</item>
+
+        <item>It\'s not illegal to go topless in New York City.</item>
+
+        <item>More people commit suicide in New York City than are murdered.</item>
+
+        <item>Significantly more serial killers are born in November than any other month.</item>
+
+        <item>If you are named \"Mary\" it is illegal for you to work as a prostitute in Siena, Italy. </item>
+
+        <item>The longest Monopoly game in history lasted for 70 straight days.</item>
+
+        <item>To burn off one plain M&amp;M candy, you need to walk the full length of a football field.</item>
+
+        <item>Acorns were used as a coffee substitute during the American Civil War.</item>
+
+        <item>The Korean version of \"LOL\" is \"KKK\" which means \"Hahaha\".</item>
+
+        <item>It is illegal to purchase or consume Jack Daniel\'s Whiskey in the town (Lynchburg, Tennessee) in which it is produced. That\'s why they have a famous lemonade the \"Lynchburg Lemonade\".</item>
+
+        <item>Britney Spears\' music was used by the British Royal Navy to scare off Somali pirates.</item>
+
+        <item>In 2008, Mexican Scientists found a way to make diamonds out of tequila.</item>
+
+        <item>There is a video game called \"Lose/Lose\" with real life consequences. It deletes a random file on your computer every time you kill an enemy.</item>
+
+        <item>According to gaming law, casinos have to stock enough cash to cover all the chips on the \"floor\".</item>
+
+        <item>Bangkok is known by Thai people as \"Krung Thep\", which means \"City of Angels\".</item>
+
+        <item>Vampire bats adopt orphans, and are one of the few mammals known to risk their own lives to share food with less fortunate roost-mates.</item>
+
+        <item>There are more atoms in a teaspoon of water than there are teaspoons of water in the entire Atlantic Ocean.</item>
+
+        <item>M&amp;M\'s stand for Mars &amp; Murrie\'s, the last names of the candy\'s founders.</item>
+
+        <item>Eminem tried to call himself M&amp;M because his name is \"Marshall Mathers\" but the candy company forbid it.</item>
+
+        <item>There are more people speaking French in Africa than in France.</item>
+
+        <item>Once an American politician tried to change the number PI to 3, because it\'s easier.</item>
+
+        <item>\"Dimension 6\" was the original name intended for Nike.</item>
+
+        <item>In 2011, a woman bought a non-visible piece of art for $10,000, titled \"Fresh Air\".</item>
+
+        <item>A baby girl born in Hong Kong was found to be \"pregnant\" with twins. It is condition known as \"foetus in foeto\" which occurs in 1 out of 500,000 births.</item>
+
+        <item>\"Murder for a jar of red rum\" spelled backwards is \"Murder for a jar of red rum\".</item>
+
+    </string-array>
+
+    <string name="title_activity_add_new_fun_fact">addNewFunFactActivity</string>
 </resources>
