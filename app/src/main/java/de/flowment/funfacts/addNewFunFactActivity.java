@@ -43,14 +43,13 @@ public class AddNewFunFactActivity extends ActionBarActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 try {
-                    if(!s.toString().equals("")){
+                    if (!s.toString().equals("")) {
                         mCheckBox.setVisibility(View.VISIBLE);
-                    }
-                    else {
+                    } else {
                         mCheckBox.setVisibility(View.INVISIBLE);
                     }
+                } catch (IllegalArgumentException e) {
                 }
-                catch (IllegalArgumentException e) {}
             }
         });
 
@@ -61,7 +60,7 @@ public class AddNewFunFactActivity extends ActionBarActivity {
                 i.setType("message/rfc822");
                 i.putExtra(Intent.EXTRA_EMAIL, new String[]{"khaled.reguieg@gmail.com"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "New FunFact For You!");
-                i.putExtra(Intent.EXTRA_TEXT   , "FunFact: \n\n" + mNewFunFactEditText.getText() + "\n\nName:\n\n" + mNameEditText.getText() + "\n\nSource: \n\n" + mSourceEditText.getText()+ "\n\nPublish name: " + mCheckBox.isChecked());
+                i.putExtra(Intent.EXTRA_TEXT, "FunFact: \n\n" + mNewFunFactEditText.getText() + "\n\nName:\n\n" + mNameEditText.getText() + "\n\nSource: \n\n" + mSourceEditText.getText() + "\n\nPublish name: " + mCheckBox.isChecked());
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
                     finish();

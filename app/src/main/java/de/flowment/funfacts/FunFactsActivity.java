@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
 
 
@@ -35,8 +36,9 @@ public class FunFactsActivity extends ActionBarActivity {
 
         FloatingActionsMenu floatingActionMenu = (FloatingActionsMenu) findViewById(R.id.floatingActionMenu);
         floatingActionMenu.setRotation(90.0f);
+        final FloatingActionButton nextFunFactFloatingButton = (FloatingActionButton) findViewById(R.id.nextFunFactFloatingBtn);
         findViewById(R.id.sendNewFactFloatingBtn).setRotation(-90f);
-        findViewById(R.id.nextFunFactFloatingBtn).setRotation(-90f);
+        nextFunFactFloatingButton.setRotation(-90f);
         findViewById(R.id.shareFloatingActionButton).setRotation(-90f);
         findViewById(R.id.sendNewFactFloatingBtn).setOnClickListener(new View.OnClickListener() {
             @Override
