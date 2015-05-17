@@ -17,8 +17,26 @@
     <color name="material_deep_cyan_900">#006064</color>
     <color name="material_deep_cyan_800">#00838F</color>
     <color name="material_deep_yellow_900">#F57F17</color>
+    <color name="darkBlue">#3079AB</color>
+    <color name="red">#E15258</color>
+    <color name="orange">#F9845B</color>
+    <color name="lavender">#838CC7</color>
+    <color name="purple">#7D669E</color>
+    <color name="aqua">#53BBB4</color>
+    <color name="pink">#F092B0</color>
+    <color name="green">#51B46D</color>
+    <color name="mustard">#E0Ab18</color>
 
     <integer-array name="androidcolors">
+        <item>@color/darkBlue</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/lavender</item>
+        <item>@color/purple</item>
+        <item>@color/aqua</item>
+        <item>@color/pink</item>
+        <item>@color/green</item>
+        <item>@color/mustard</item>
         <item>@color/darkGreen</item>
         <item>@color/flowGreen</item>
         <item>@color/awesomePurple</item>
