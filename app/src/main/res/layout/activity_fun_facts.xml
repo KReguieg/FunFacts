@@ -35,9 +35,11 @@
             android:layout_height="2dp"
             android:layout_below="@+id/didYouKnowTextView"
             android:layout_marginTop="3dp"
-            android:background="#FFFFFFFF"
+            android:background="#80FFFFFF"
             android:elevation="-1dp"
-            android:paddingTop="10dp" />
+            android:paddingTop="10dp"
+            android:layout_alignRight="@+id/didYouKnowTextView"
+            android:layout_alignEnd="@+id/didYouKnowTextView"/>
 
         <EditText
             android:id="@+id/funFactTxt"
